@@ -1,0 +1,63 @@
+#footer {
+  background: #053357;
+  display: grid;
+  grid-template-columns: 1fr;
+  #footer-container {
+    display: flex;
+    margin-top: 2%;
+  }
+  .footer-text-containers {
+    margin-left: 9%;
+  }
+
+  .footer-title {
+    color: white;
+    font-size: 2.5rem;
+  }
+  .footer-text {
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+  }
+  .footer-link {
+    background: rgba(24, 118, 242, 0.219);
+    padding: 1% 4%;
+    border-radius: 2px;
+  }
+  #kontakt-info {
+  }
+  #footer-address-title {
+    color: white;
+    font-size: 2rem;
+  }
+  #open-hours {
+  }
+  #free-treatmment {
+  }
+  #satisfaction {
+  }
+  #img-cookie-container {
+    margin: 0 auto 2% auto;
+  }
+  #mobilepay-container {
+    margin-left: 5%;
+    height: 10vh;
+  }
+  #mobilepay {
+    height: 100%;
+  }
+  #cookie-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  #like-btn {
+    margin-top: 3%;
+    overflow: hidden;
+    width: 35%;
+  }
+}

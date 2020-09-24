@@ -1,0 +1,43 @@
+// App Global Variables
+$base_margintop: 56px;
+
+// Navigation Global Variables
+$base-navbar-height: $base_margintop;
+$base-bg: rgb(60, 60, 184);
+$base-logo-size: 2rem;
+$base-link-color: white;
+$base-link-hover-color: lighten($base-bg, 15%);
+//
+
+// Side Drawer Global Varibales
+$base-drawer-width: 70%;
+$base-drawer-max-width: 400px;
+$base-drawer-bg: white;
+$base-drawer-link-color: rgb(17, 17, 128);
+$base-drawer-link-hover-color: lighten($base-drawer-link-color, 15%);
+$base-link-fontsize: 2rem;
+$base-link-margin: 0.5rem 1rem;
+$base-box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+$base-drawer-out: translateX(-115%);
+$base-drawer-in: translateX(0%);
+$base-drawer-transform: transform 0.3s ease-out;
+// Side Drawer Global Varibales
+
+// Drawer Button Global Variables
+$base-burger-height: $base-logo-size;
+$base-burger-width: 30px;
+$base-burger-line-width: $base-burger-width;
+$base-burger-line-width-while-rotated: 36px;
+$base-burger-line-height: 2px;
+$base-burger-line-color: white;
+$base-burger-transform: $base-drawer-transform;
+$base-burger-unclicked-rotation: rotate(0deg);
+$base-burger-clicked-rotation-first: rotate(40deg);
+$base-burger-clicked-rotation-second: rotate(-40deg);
+// Drawer Button Global Variables
+
+// Backdrop Global Variables
+$base-backdrop-bg: rgba(0, 0, 0, 0.3);
+// Backdrop Global Variables
+
+// Navigation Global Variables

@@ -1,0 +1,22 @@
+@import './assets/style/variables.scss';
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr;
+  main {
+    margin-top: $base-margintop;
+  }
+}

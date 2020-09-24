@@ -1,0 +1,18 @@
+@import '../../Assets/Style/mixins';
+.div-container {
+  @include grid-cols(1, 1fr);
+  @include grid-rows(1fr 2fr 3fr);
+
+  thead {
+    tr {
+      @include grid-cols(4, 1fr);
+      text-align: center;
+    }
+  }
+  tbody {
+    tr {
+      @include grid-cols(4, 1fr);
+      text-align: center;
+    }
+  }
+}

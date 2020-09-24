@@ -1,0 +1,13 @@
+@mixin reset-li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin grid-cols($cols, $fr) {
+  display: grid;
+  grid-template-columns: repeat($cols, $fr);
+}
+@mixin grid-rows($cols) {
+  grid-template-rows: $cols;
+}

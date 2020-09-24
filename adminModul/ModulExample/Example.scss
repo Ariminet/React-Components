@@ -1,0 +1,12 @@
+.header-row {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+.body-row {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+.edit-row {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}

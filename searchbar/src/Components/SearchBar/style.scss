@@ -1,0 +1,51 @@
+@import '../../Assets/Style/variable.scss';
+.search-bar-container {
+  width: $search-bar-width;
+  position: relative;
+
+  form {
+    .search {
+      padding: $search-bar-padding;
+      border: $search-bar-border;
+      cursor: pointer;
+      &:focus {
+        outline-width: 0;
+      }
+    }
+    button {
+      padding: $search-bar-padding;
+      border: $search-bar-border;
+      background: $search-bar-base-bg;
+      color: $search-bar-base-color;
+      transition: $search-bar-hover-transition;
+      font-weight: 700;
+      &:hover {
+        background: $search-bar-hover-bg;
+        color: $search-bar-hover-color;
+      }
+    }
+  }
+  .search-list-container {
+    position: absolute;
+    top: $search-bar-top-pos;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background: $search-bar-base-bg;
+    li {
+      list-style: none;
+      width: 100%;
+      a {
+        text-decoration: none;
+        color: $search-bar-base-color;
+        display: block;
+        padding: $search-bar-padding;
+        transition: $search-bar-hover-transition;
+        &:hover {
+          background: $search-bar-hover-bg;
+          color: $search-bar-hover-color;
+        }
+      }
+    }
+  }
+}
